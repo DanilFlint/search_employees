@@ -16,6 +16,12 @@
 <script>
 import {mapMutations, mapState} from "vuex";
 
+/** Строка найденного в поиске пользователя
+ *
+ * props:
+ * username - сокращенное имя пользователя
+ *
+ * */
 export default {
   props: ['username', 'email', 'id'],
   name: "ItemCard",

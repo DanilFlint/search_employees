@@ -51,6 +51,7 @@ import ItemCard from "./ItemCard";
 import Preloader from "./Preloader";
 import Error from "./Error";
 
+/** Компонент для поиска пользователей */
 export default {
   name: "SearchEmployees",
   components: {Error, Preloader, ItemCard},

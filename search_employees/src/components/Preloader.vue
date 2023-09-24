@@ -10,6 +10,7 @@
 
 <script>
 
+/** Компоненты отображения процесса запроса */
 export default {
   name: "Preloader",
   props: ['width']
