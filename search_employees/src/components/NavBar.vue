@@ -9,8 +9,9 @@
   </div>
 
 </template>
-
 <script>
+
+/** Компонент навигации по приложению */
 export default {
   name: "NavBar"
 }

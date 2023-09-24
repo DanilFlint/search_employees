@@ -8,6 +8,8 @@
 <script>
 import SearchEmployees from "./SearchEmployees";
 import Card from "./Card";
+
+/** Компонент для содержимого приложения */
 export default {
   name: "Body",
   components: {Card, SearchEmployees}

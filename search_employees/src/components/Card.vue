@@ -29,9 +29,12 @@
 <script>
 import {mapState} from "vuex";
 
+/** Отображение выбранного пользователя */
 export default {
   name: "Card",
   computed: {
+
+    /** Выбран ли пользователь, заполнено ли поле choosenEmployee в state */
     isChooseEmployee() {
       return !this.choosenEmployee.id;
     },

@@ -12,6 +12,11 @@
 </template>
 
 <script>
+
+/** Компоненты ошибки при поиске
+ * props:
+ * errorStatus - статус ответа сервера
+ * */
 export default {
   name: "Error",
   props: ['errorStatus']
